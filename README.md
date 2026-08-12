@@ -1,4 +1,4 @@
-# Gayatri Portfolio
+# Gayatri Gavhane Portfolio
 
 Welcome to my personal portfolio website.
 
