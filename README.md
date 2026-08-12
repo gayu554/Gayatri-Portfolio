@@ -29,7 +29,7 @@ A responsive personal portfolio website showcasing my education, technical skill
 
 ## Education
 
-**B.E. Computer Engineering**  
+**B.E. Information Technology**  
 Pravara Rural Engineering College, Loni
 
 ## Contact
