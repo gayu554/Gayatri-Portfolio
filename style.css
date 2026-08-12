@@ -1,0 +1,247 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke;
+    color: #222;
+}
+
+/* Header */
+
+header {
+    text-align: center;
+    background-color: #0d47a1;
+    color: white;
+    padding: 30px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header h4 {
+    margin-top: 10px;
+    color: white;
+}
+
+
+/* Navigation */
+
+nav {
+    background-color: #08306b;
+    text-align: center;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+
+/* Sections */
+
+.section-box {
+    background-color: rgb(247, 238, 228);
+    margin: 25px auto;
+    padding: 25px;
+    width: 90%;
+    max-width: 1100px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.section-box h2 {
+    color: #0d47a1;
+}
+
+
+/* Education Table */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #0d47a1;
+    color: white;
+    padding: 12px;
+}
+
+td {
+    padding: 12px;
+    border: 1px solid gray;
+    text-align: center;
+}
+
+
+/* Skills */
+
+.skills-list {
+    padding: 0;
+}
+
+.skills-list li {
+    display: inline-block;
+    background-color: #0d47a1;
+    color: white;
+    padding: 10px 20px;
+    margin: 6px;
+    border-radius: 8px;
+}
+
+
+/* Projects */
+
+.project-card {
+    background-color: white;
+    padding: 20px;
+    margin: 15px 0;
+    border-left: 5px solid #0d47a1;
+    border-radius: 8px;
+}
+
+.project-card h3 {
+    color: #0d47a1;
+}
+
+
+/* Footer */
+
+footer {
+    text-align: center;
+    background-color: #0d47a1;
+    color: white;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+button {
+    background-color: #0d47a1;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #08306b;
+}
+
+/* =========================
+   Projects Section
+========================= */
+
+#projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    margin-top: 20px;
+}
+
+.project-card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    border-left: 5px solid #174ea6;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+}
+
+.project-card h3 {
+    color: #174ea6;
+    margin-bottom: 15px;
+}
+
+.project-card p {
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+.project-card a {
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 15px;
+    padding: 8px 15px;
+    background: #174ea6;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.project-card a:hover {
+    background: #0d3575;
+}
+
+/* =========================
+   Add Project Form
+========================= */
+
+#project-form {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+#project-form input,
+#project-form textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+}
+
+#project-form textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+#project-form input:focus,
+#project-form textarea:focus {
+    outline: none;
+    border-color: #174ea6;
+}
+
+#project-form button {
+    padding: 12px 25px;
+    background: #174ea6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#project-form button:hover {
+    background: #0d3575;
+}
